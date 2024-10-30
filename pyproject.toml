@@ -1,0 +1,25 @@
+[project]
+name = "build-summary"
+version = "0.0.1"
+authors = [
+  { name="dcoello-dev", email="dcpulido91@gmail.com" },
+]
+description = ""
+keywords = []
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[project.scripts]
+summary = "summary.__main__:execute"
+summary-pipe = "summary.__main__:parse"
+
