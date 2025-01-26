@@ -1,6 +1,6 @@
 [project]
 name = "build-summary"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="dcoello-dev", email="dcpulido91@gmail.com" },
 ]
@@ -17,6 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
+  'neovim-remote'
 ]
 
 [project.scripts]
